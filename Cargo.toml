@@ -1,0 +1,10 @@
+[package]
+name = "password-generator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rayon = "1.10"
+indicatif = "0.17"
+num_cpus = "1.16"
+memmap2 = "0.9"

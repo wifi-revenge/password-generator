@@ -1,0 +1,10 @@
+# File generati da Rust
+/target/
+Cargo.lock
+
+# File di output
+/outputs/
+
+# File temporanei
+*.swp
+*.bak

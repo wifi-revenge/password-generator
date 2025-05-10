@@ -1,6 +1,7 @@
 # Password Generator (Rust)
 
-Generatore di password ad alte prestazioni che utilizza zykgen in parallelo.
+Generatore di password ad alte prestazioni con zykgen e supporto multi-thread.
+L'utente può scegliere quanti core CPU utilizzare per la generazione parallela.
 
 ## 🚀 Funzionalità
 - Generazione parallela con N core
@@ -13,8 +14,16 @@ Generatore di password ad alte prestazioni che utilizza zykgen in parallelo.
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
+2. Per sh/bash/zsh/ash/dash/pdksh
+```bash
+. "$HOME/.cargo/env"
+```
+Per fish
+```bash
+source "$HOME/.cargo/env.fish"
+``` 
 
-2. Clona il repository:
+3. Clona il repository:
 ```bash
 git clone https://github.com/wifi-revenge/password-generator.git
 cd password-generator
@@ -36,5 +45,5 @@ cargo build --release
 
 ## 🧩 Dipendenze
 - [zykgen](https://github.com/luc10/zykgen) installato nel PATH
-
+- go
 
